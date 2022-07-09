@@ -1,10 +1,9 @@
 #include <iostream>
 using namespace std;
 
-
-class HashMap {
-    int currentSize;
-    int totalSize;
+template<typename T> class HashMap {
+    int currentSize ;
+    int totalSize ;
     
 };
 
