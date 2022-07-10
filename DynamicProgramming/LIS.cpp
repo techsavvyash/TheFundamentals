@@ -29,10 +29,16 @@ int main()
         }
     }
 
+    int maxEl = dp[0];
+
     for (int i = 0; i < n; i++)
     {
         cout << dp[i] << " ";
+        maxEl = max(maxEl, dp[i]);
     }
+    cout << endl;
+
+    cout << "Length of the longest increasing subsequence is: " << maxEl << endl;
 
     return 0;
 }
