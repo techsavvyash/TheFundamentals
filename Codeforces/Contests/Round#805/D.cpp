@@ -28,19 +28,21 @@ void solve()
     int i = 25;
     while (val > p && i >= 0)
     {
-        if ((count[i] * (i + 1)) >= (val - p) && (count[i] * (i + 1)) > 0)
+        // cout << "(count[i] * (i + 1)): " << (count[i] * (i + 1)) << endl;
+        // cout << "val - p: " << val - p << endl;
+        // if ((count[i] * (i + 1)) >= (val - p) && (count[i] * (i + 1)) > 0)
+        // {
+        //     val -= (count[i] * (i + 1));
+        //     count[i] = 0;
+        // }
+        // else
+        // {
+        while (count[i] > 0 && val > p)
         {
-            val -= (count[i] * (i + 1));
-            count[i] = 0;
+            val -= (i + 1);
+            count[i]--;
         }
-        else
-        {
-            while (count[i] > 0 && val > p)
-            {
-                val -= (i + 1);
-                count[i]--;
-            }
-        }
+        // }
         i--;
     }
 
@@ -54,7 +56,7 @@ void solve()
             count[str[i] - 'a']--;
         }
     }
-
+    // cout << "val:  " << val << endl;
     cout << res << endl;
 }
 
