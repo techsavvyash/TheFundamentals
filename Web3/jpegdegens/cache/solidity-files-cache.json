@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/techsavvyash/Desktop/Projects/Fundamentals/Web3/jpegdegens/contracts/HelloWorld.sol": {
-      "lastModificationDate": 1657557525016,
-      "contentHash": "a03bd3a601e6b57674c02111dabf18bc",
+      "lastModificationDate": 1657648077366,
+      "contentHash": "a38f85ea7d5a198789e7cd5131796033",
       "sourceName": "contracts/HelloWorld.sol",
       "solcConfig": {
         "version": "0.8.9",

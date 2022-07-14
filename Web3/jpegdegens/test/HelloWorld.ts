@@ -1,4 +1,4 @@
-import "@nomiclabs/hardhat-ethers";
+import _ from "@nomiclabs/hardhat-ethers";
 import { ethers } from "hardhat";
 import { expect } from "chai";
 
