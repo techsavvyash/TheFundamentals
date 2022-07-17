@@ -107,6 +107,41 @@
       "artifacts": [
         "console"
       ]
+    },
+    "/home/techsavvyash/Desktop/Projects/Fundamentals/Web3/jpegdegens/contracts/Hero.sol": {
+      "lastModificationDate": 1657819254833,
+      "contentHash": "4b989d478bfc5b4c2ff308e2e192fb22",
+      "sourceName": "contracts/Hero.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Hero"
+      ]
     }
   }
 }
