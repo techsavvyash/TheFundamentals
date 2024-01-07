@@ -1,0 +1,1 @@
+{"version":3,"file":"workflow.js","sourceRoot":"","sources":["../../../src/temporal/workflows/workflow.ts"],"names":[],"mappings":";;;AAAA,mDAA8D;AAQ9D,MAAM,UAAU,GAAG,IAAA,0BAAe,EAAa;IAC7C,mBAAmB,EAAE,UAAU;CAChC,CAAC,CAAC;AAEI,KAAK,UAAU,eAAe,CAAC,IAAY;IAChD,MAAM,IAAA,gBAAK,EAAC,IAAI,CAAC,CAAC;IAClB,OAAO,MAAM,UAAU,CAAC,eAAe,CAAC,IAAI,CAAC,CAAC;AAChD,CAAC;AAHD,0CAGC"}
